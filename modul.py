@@ -20,3 +20,4 @@ for time in början:
 print(klockan)
 
 # vet äntligen vad % modulen gör modulus den returnar resten av new_time / len(timmar_dagen)
+# alltså den kollar om len(timmar_dagen) får plats i new_time annars returnar den ursprungs värdet:)
