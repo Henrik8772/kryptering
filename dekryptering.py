@@ -21,7 +21,7 @@ for nyckel in range(0, len(alfabet)):
     print(dekrypterat)
 
     for word in dekrypterat.split():
-        clean_word = word.strip(string.punctuation)
-        clean_word = clean_word.lower()
-        if clean_word in ordlista:
+        strip_word = word.strip(string.punctuation)
+        strip_word = strip_word.lower()
+        if strip_word in ordlista:
             print(nyckel)
